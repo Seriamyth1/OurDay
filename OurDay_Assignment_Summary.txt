@@ -1,0 +1,84 @@
+OURDAY - TEAM CHARTER & PRODUCT VISION ASSIGNMENT SUMMARY
+=========================================================
+
+WHAT WE NEED TO MAKE
+--------------------
+All pages go in our team's Confluence space. For each page: create a new page,
+open the "..." menu, choose "Templates and import", and search for the
+template name.
+
+1. DESIGN THE BOX  (template: "CSCI - Design the Box")  - 15 pts
+   Think of it as the box our product would be sold in. It needs:
+   - The product name (OurDay)
+   - A short list of the main features (the front of the box)
+   - A more detailed description of each feature (the back of the box)
+   - The product requirements (system and user requirements)
+   - A logo, either described in words or linked
+
+2. PRODUCT VISION  (template: "CSCI - Product Vision")  - 10 pts
+   One short statement in the standard format:
+   FOR [target customer] WHO [need or problem], OurDay IS A [product category]
+   THAT [key benefit]. UNLIKE [competitors], OUR PRODUCT [what makes it different].
+
+3. TEAM CHARTER  (template: "CSCI - Team Charter")  - 15 pts
+   How the team works together: member names and contact info, how we
+   communicate, meeting times, what happens when someone misses a meeting,
+   roles, and how we make decisions and settle disagreements.
+   Fill in every field the template has.
+
+4. REFERENCE PAGE
+   A plain Confluence page with links to the three pages above.
+
+When all four pages exist, submit the word "Completed" on the assignment.
+
+GRADING NOTE: Each page gets full points only if every field in its template
+is filled in and clear. A missing field drops it to 5 points.
+
+
+WHAT WE ALREADY HAVE
+--------------------
+From "Presentation 1-2.pdf" (Ramir Moses, Heriberto Chavez-Pullman) - covers
+most of the Design the Box content:
+
+Name:
+  - OurDay, a customizable calendar app
+
+Features:
+  - Easier to manage than other calendar apps
+  - Daily, weekly and monthly refreshers plus reminders
+  - More freedom in how you organize your calendar
+  - Customizable backgrounds and themes
+
+Requirements:
+  - Works offline (Wi-Fi optional)
+  - Runs on phone, tablet or computer
+  - Under about 300 MB
+  - Works on Windows, macOS, Linux and iOS
+  - Notifications turned on
+
+Tech:
+  - Java, local storage, a UI framework, GitHub for version control
+
+Code:
+  - The "CalBackground" file is a Java class for customizable backgrounds
+    (solid color, gradient or image). This shows the theme feature is already
+    started - worth mentioning on the Design the Box page.
+
+(The other PDF, "presentation.pdf", is the Git intro class activity and is not
+related to this assignment.)
+
+
+WHAT'S STILL MISSING
+--------------------
+[ ] Product Vision: nothing written yet. Pick a target user (for example,
+    students juggling classes and work) and say what makes OurDay different
+    from Google or Apple Calendar.
+[ ] Team Charter: nothing yet. Needs input from both teammates (contact info,
+    availability, etc.).
+[ ] Logo: not described or linked anywhere yet.
+[ ] Detailed feature descriptions: the slides only have one-liners; the
+    Design the Box page needs a few sentences per feature.
+[ ] Reference page: not made yet.
+[ ] Minor fix: recheck "under 300 MB" and "iOS". Java doesn't run natively on
+    iOS, so consider listing platforms as desktop (Windows, macOS, Linux) and
+    maybe Android.
