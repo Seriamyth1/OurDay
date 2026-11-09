@@ -74,12 +74,3 @@ public class CustomizableBackgroundPanel extends JPanel {
         g2d.dispose();
     }
 }
-
-
-
-CustomizableBackgroundPanel calendarPanel = new CustomizableBackgroundPanel();
-calendarPanel.setLayout(new BorderLayout());
-calendarPanel.setGradient(new Color(230, 240, 255), Color.WHITE);
-// or: calendarPanel.setBackgroundImage("path/to/image.jpg");
-
-calendarPanel.add(yourCalendarGridComponent, BorderLayout.CENTER);
